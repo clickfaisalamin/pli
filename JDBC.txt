@@ -1,0 +1,89 @@
+What is JDBC ?
+----------------
+* JDBC stands for Java Database Connectivity.
+* JDBC is a java API to connect and execute the query with the database.
+* JDBC API contains Collection classes and interfaces.
+* All the classes and interfaces are available inside the 'java.sql' package.
+* E.g.  Class, DriverManager, Connection, Resultset.
+
+------------------------------------
+JDBC stepas
+------------------------------------
+1. Register the driver class
+2. Create connection
+3. Create statement
+4. Execute queries
+5. Close connection
+
+------------------------------------
+1. Register the driver class
+--------------------------------------
+* The forName() method of Class, class is used to register
+  the driver class. The method is used to dynamically load the 
+  driver class.
+
+	Syntax : Class.forName(Driver name);
+	
+	MySQL  : com.mysql.cj.jdbc.Driver
+	Oracle : oracle.jdbc.driver.OracleDriver
+	
+-----------------------------------------
+2. Create connection
+------------------------------------------
+The getConnection() method of DriverManager class is used to establish
+connection with the database.
+
+	Syntax: Connection conn =  DriverManager.getConnection(url,username,password);
+
+MySQL : jdbc:mysql://localhost:3306/databasename
+Oracle: jdbc:oracle:thin:@localhost:1521.xe
+
+-------------------------------------------------
+3. Create Statement
+--------------------------------------------
+* Statement create used for Connection interface.
+* There are 2 types of Statement method.
+	1. createStatement()
+	2. prepareStatement()
+	
+	syntax:
+	-------
+	Statement st = conn.createStatement();
+	PrepareStatement ps = conn.PrepareStatement();
+	----------------------------------
+	Two method contains sql query parameter
+	--------------------------------------
+	  conn.createStatement(sql);
+	  conn.prepareStatement(sq;);
+
+-----------------------------------------
+4. Execute the Query
+-----------------------------------------
+* There are 2 types of query:
+	1.	Select query - select
+	2. Non select query - insert, update and delete.
+
+* executeQuery()-is used to execute SELECT query. It returns ResultSet object. 
+
+* executeUpdate()-it is used to execute specified query, it may be create, drop, 
+  insert, update, delete, etc.
+  
+* execute() - method is used to execute queries that may return multiple results.
+
+---------------------------------------------
+5. Close the connection object
+----------------------------------------------
+* The close() method of Connection interface is used to close
+  the connection .
+  
+  Syntax:
+  -------   conn.close();
+  
+  
+  
+
+
+
+
+
+
