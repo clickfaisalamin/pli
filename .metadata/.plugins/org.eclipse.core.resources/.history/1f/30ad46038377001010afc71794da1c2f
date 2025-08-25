@@ -1,0 +1,44 @@
+<% request.setAttribute("courseactive", "active"); %>
+<% request.setAttribute("title", "Home"); %>
+<jsp:include page="format/header.jsp"></jsp:include>
+
+
+<div class="container">
+
+	<div class="row>">
+	
+		<div class="col-md-6 offset-md-3">
+		
+			<div class="card">
+			
+			
+				<div class="card-body">
+				
+				
+					<form>
+						<div class="mb-3">
+						
+							<label for="" class="label-control">Name</label>
+							<input type="text" class="form-control"  placeholder="Enter Your Name Here" id="txtname" name="txtname">
+						</div>
+						<div class="mb-3"></div>
+						<div class="mb-3"></div>
+						<div class="mb-3"></div>
+					
+					</form>
+				
+				</div>
+			
+			</div>
+		
+		
+		</div>
+	
+	</div>
+
+</div>
+
+
+    
+ <jsp:include page="format/footer.jsp"></jsp:include>
+

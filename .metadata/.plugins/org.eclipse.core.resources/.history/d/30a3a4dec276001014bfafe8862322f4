@@ -1,0 +1,28 @@
+   
+  
+  
+  
+  
+   <br>
+   
+   <div class="container-fluid fixed-bottom" style="background-color:#9346e0;color:#fff;">
+
+	<div class="row">
+	
+			<div class="col-12 offset-md-4 p-3 ">
+			
+				<span>Copyright Imp &copy; 2025. All Rights Reserved</span>
+			
+			</div>
+		
+	</div>
+
+</div>
+   
+   <!-- 	all js links are here -->
+	<jsp:include page="../component/all_in_js.jsp"></jsp:include>
+	
+	
+	
+  </body>
+</html>

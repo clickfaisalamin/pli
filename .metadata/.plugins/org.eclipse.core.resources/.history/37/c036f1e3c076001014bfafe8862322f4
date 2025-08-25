@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#e0e0ff">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PLI-APP
+    <img alt="" src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/hdmxbk1jicxz6ortb7rv" width="50" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link <%=request.getAttribute("homeactive")%>" aria-current="page" href="homepage.jsp">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link <%=request.getAttribute("courseactive")%>" href="addcoursepage.jsp">Course</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

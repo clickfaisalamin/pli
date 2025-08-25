@@ -1,0 +1,9 @@
+<% request.setAttribute("homeactive", "active"); %>
+<% request.setAttribute("title", "Home"); %>
+<jsp:include page="format/header.jsp"></jsp:include>
+
+
+
+    
+ <jsp:include page="format/footer.jsp"></jsp:include>
+

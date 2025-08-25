@@ -1,0 +1,24 @@
+package comm.servlet;
+
+import java.io.IOException;
+
+
+
+@WebServlet("")
+public class AddServlet extends HttpServlet{
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		super.doPost(req, resp);
+		
+		
+		String fname = req.getParameter("txtname");
+		String course = req.getParameter("txtcourse");
+		String status = req.getParameter("txtstatus");
+		
+	}
+	
+	
+
+}

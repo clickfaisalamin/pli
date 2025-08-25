@@ -1,0 +1,30 @@
+package com.DAO;
+
+import java.sql.Connection;
+
+public class PliDAO {
+	
+	private Connection conn;
+
+	public PliDAO(Connection conn) {
+		super();
+		this.conn = conn;
+	}
+	
+	public boolean addPli(String fullname, String plicourse, String plistatus)
+	{
+		boolean b = false;
+		try {
+			
+			
+			
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return b;
+	}
+	
+
+}

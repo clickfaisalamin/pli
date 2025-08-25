@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+E:\My_Class_Room\Ibcs Primax\PLI\servlet-12-08-2025\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\692449044.index
+\pliapp\src\main\java
+E:\My_Class_Room\Ibcs Primax\PLI\servlet-11-08-2025\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1654916803.index
+\pliapp\src\main\resources
+E:\My_Class_Room\Ibcs Primax\PLI\servlet-11-08-2025\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\692449044.index
+\pliapp\src\main\java
+E:\My_Class_Room\Ibcs Primax\PLI\servlet-12-08-2025\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1038730203.index
+\pliapp\src\main\java
+E:\My_Class_Room\Ibcs Primax\PLI\servlet-12-08-2025\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1654916803.index
+\pliapp\src\main\java
+E:\My_Class_Room\Ibcs Primax\PLI\servlet-25-08-2025\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1654916803.index
+\pliapp\src\main\java
+E:\My_Class_Room\Ibcs Primax\PLI\servlet-11-08-2025\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1038730203.index
+\pliapp\src\main\java

@@ -1,0 +1,7 @@
+package comm.servlet;
+
+import com.sun.net.httpserver.HttpServer;
+
+public class AddServlet extends HttpServer{
+
+}
