@@ -165,5 +165,31 @@ public class PliDAO {
 		return b;
 	}
 	
-
+//	public boolean deletePli(int t)
+//	{
+//		
+//		boolean b = false;
+//		
+//		try {
+//			
+//			String sql  = "DELETE FROM pli WHEREE id = ?";
+//			PreparedStatement ps = conn.prepareStatement(sql);
+//			ps.setInt(t, t);			
+//			
+//			int i = ps.executeUpdate();
+//			System.out.println(sql);
+//			if(i == 1)
+//			{
+//				return true;
+//			}
+//			
+//			
+//			
+//		} catch (Exception e) {
+//			
+//			e.printStackTrace();
+//		}
+//		
+//		return b;
+//	}
 }

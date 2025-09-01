@@ -69,7 +69,7 @@ session.removeAttribute("failMsg");
   
   </tbody>
 </table>
-<br>
 </div>
+<br>
  <jsp:include page="format/footer.jsp"></jsp:include>
 

@@ -9,7 +9,7 @@
 
 
 
-<div class="container bg-light">
+<div class="container bg-light mb-3">
 <h3 class="text-success bg-light p-2 fw-bold text-center display-4">PLI APP</h3>
 
 <%
@@ -69,7 +69,6 @@ session.removeAttribute("failMsg");
   
   </tbody>
 </table>
-<br>
 </div>
  <jsp:include page="format/footer.jsp"></jsp:include>
 

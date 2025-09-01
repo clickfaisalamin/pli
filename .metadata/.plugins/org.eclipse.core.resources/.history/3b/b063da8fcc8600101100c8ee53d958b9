@@ -57,7 +57,7 @@ session.removeAttribute("failMsg");
    { %>
    <tr class="text-center">
       <th scope="row"><%= pd.getId() %></th>
-      <td><%= pd.getFname() %></td>
+      <td><%= pd.getFname() %>k</td>
       <td><%= pd.getCourse() %></td>
       <td><%= pd.getStatus() %></td>
       <td class="text-center">
@@ -69,7 +69,6 @@ session.removeAttribute("failMsg");
   
   </tbody>
 </table>
-<br>
 </div>
  <jsp:include page="format/footer.jsp"></jsp:include>
 
